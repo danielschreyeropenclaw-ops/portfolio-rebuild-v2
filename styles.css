@@ -11,7 +11,7 @@
 html,body{margin:0;padding:0}
 body{
   min-height:100vh;
-  font-family:Inter,sans-serif;
+  font-family:Manrope,sans-serif;
   color:var(--text);
   background:
     radial-gradient(900px 600px at 75% 30%, rgba(86,211,163,.12), transparent 60%),
@@ -35,7 +35,7 @@ body{
 }
 h1{margin:0;width:min(900px,100%);line-height:.95}
 .txt{display:block;font-size:clamp(2.4rem,8vw,6rem);font-weight:800;letter-spacing:-.03em}
-.txt.accent{font-family:"Playfair Display",serif;font-style:italic;font-weight:600;color:var(--green);letter-spacing:-.01em;margin-left:min(26vw,220px);line-height:.85;text-shadow:0 0 24px rgba(86,211,163,.28)}
+.txt.accent{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:600;color:var(--green);letter-spacing:-.01em;margin-left:min(26vw,220px);line-height:.85;text-shadow:0 0 24px rgba(86,211,163,.28)}
 
 .mini-profile{margin-top:1rem;width:min(900px,100%);display:flex;justify-content:flex-end;align-items:center}
 .avatar-slot{width:94px;height:94px;border-radius:50%;background:linear-gradient(160deg,#2a3347,#1b2232);border:1px solid #3b445b;display:flex;align-items:center;justify-content:center;color:#8e97ab;font-weight:700;margin-right:-18px}
@@ -50,9 +50,9 @@ h1{margin:0;width:min(900px,100%);line-height:.95}
 .socials a:hover{color:var(--green-soft);border-color:#4a7d6c}
 
 .right-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
-.highlight-card{grid-column:1 / -1;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:190px}
-.float-card{position:absolute;border-radius:18px;padding:.7rem .9rem;background:linear-gradient(160deg,#2b3250,#1c2239);border:1px solid #465179;color:#d7ddf0;transition:.35s}
-.float-card.one{left:10%;top:18%;font-size:2.1rem;font-weight:800;color:var(--green-soft)}
+.highlight-card{grid-column:1 / -1;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;min-height:190px;background:linear-gradient(145deg,#2e2a4a,#1f2335);border-color:#585083}
+.float-card{position:absolute;border-radius:18px;padding:.7rem .9rem;background:linear-gradient(160deg,#5b4a8f,#3b345f);border:1px solid #8a7dca;color:#f2efff;transition:.35s;box-shadow:0 8px 18px rgba(0,0,0,.25)}
+.float-card.one{left:10%;top:18%;font-size:2.1rem;font-weight:800;color:#d5ffef}
 .float-card.two{left:34%;top:30%}
 .float-card.three{left:58%;top:20%}
 .highlight-card:hover .float-card.one{transform:translateY(-8px) rotate(-5deg)}
@@ -67,8 +67,9 @@ h1{margin:0;width:min(900px,100%);line-height:.95}
 .stack-card{min-height:230px}
 .stack-card h3{margin:.2rem 0 .8rem;color:#f2f3f6;font-size:1.3rem}
 .stack-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.6rem}
-.stack-grid span{display:flex;align-items:center;justify-content:center;border:1px solid #4f576c;background:linear-gradient(160deg,#2a3144,#1f2535);border-radius:14px;padding:.6rem .4rem;color:#d8deec;font-weight:600}
-.stack-grid span:hover{border-color:#5a8a79;color:var(--green-soft)}
+.stack-item{display:flex;align-items:center;gap:.55rem;border:1px solid #4f576c;background:linear-gradient(160deg,#2a3144,#1f2535);border-radius:14px;padding:.5rem .55rem;color:#d8deec;font-weight:600}
+.logo-dot{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:800;background:linear-gradient(140deg,#334056,#212939);border:1px solid #6a7897;color:#cfe1ff;flex:0 0 auto}
+.stack-item:hover{border-color:#5a8a79;color:var(--green-soft)}
 
 .foot{padding:1rem 0 1.6rem;color:#8f97a8;font-size:.85rem}
 
