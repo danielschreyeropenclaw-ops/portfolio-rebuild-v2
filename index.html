@@ -3,131 +3,40 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Astra Vale — Portfolio</title>
+  <title>Dummy Name — Landing</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=3"/>
 </head>
 <body>
   <header class="topbar">
     <div class="wrap navrow">
-      <a class="logo" href="#home">Astra Vale</a>
-      <nav id="nav">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#insights">Insights</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button id="menuBtn" class="menuBtn">☰</button>
+      <a class="name" href="#">Dummy Name</a>
+      <a class="resume" href="#" aria-label="Download dummy resume">⇩ Resume</a>
     </div>
   </header>
 
-  <main id="home">
-    <section class="hero wrap section">
-      <div class="heroLayout">
-        <div>
-          <p class="eyebrow">Dummy Role · Dummy Domain · Dummy Region</p>
-          <h1>Designing elegant digital systems with measurable outcomes.</h1>
-          <p class="lead">Dummy intro text. This is placeholder content for layout and style iteration only. Final content comes later.</p>
-          <div class="heroActions">
-            <a class="btn primary" href="#work">Recent Projects</a>
-            <a class="btn ghost" href="#">Download Resume</a>
-          </div>
-        </div>
-        <div class="heroFigure reveal">
-          <div class="dummyFigure fig-hero"></div>
-        </div>
-      </div>
-    </section>
+  <main class="hero wrap">
+    <!--
+      EASY TEXT EDIT:
+      - Normal text: edit <span class="txt">...</span>
+      - Highlight text: edit <span class="txt accent">...</span>
+    -->
+    <h1>
+      <span class="txt">Let’s build something</span>
+      <span class="txt accent">remarkable</span>
+      <span class="txt">together</span>
+    </h1>
 
-    <section id="work" class="wrap section">
-      <div class="sectionHead">
-        <h2>Recent Projects</h2>
-        <p>Dummy project summaries and placeholder figures.</p>
-      </div>
-
-      <article class="featured reveal">
-        <div class="dummyFigure fig-lg"></div>
-        <div class="featuredBody">
-          <span class="chip">Featured Project</span>
-          <h3>Dummy Project Alpha</h3>
-          <p>Placeholder text. Explain problem framing, approach, and measurable outcomes here later.</p>
-          <ul class="metaChips"><li>UX</li><li>Data</li><li>Systems</li></ul>
-        </div>
-      </article>
-
-      <div class="cardGrid">
-        <article class="projectCard reveal">
-          <div class="dummyFigure fig-md"></div>
-          <div class="projectBody">
-            <h3>Dummy Project Beta</h3>
-            <p>Placeholder summary for project beta.</p>
-          </div>
-        </article>
-        <article class="projectCard reveal">
-          <div class="dummyFigure fig-md"></div>
-          <div class="projectBody">
-            <h3>Dummy Project Gamma</h3>
-            <p>Placeholder summary for project gamma.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="wrap section split">
-      <article class="panel reveal">
-        <h2>About</h2>
-        <p>Dummy biography paragraph. Replace with actual profile text.</p>
-        <p>Second placeholder paragraph for final content pass.</p>
-      </article>
-      <article class="panel reveal">
-        <h2>Capabilities</h2>
-        <ul class="skills">
-          <li>Dummy Capability 01</li>
-          <li>Dummy Capability 02</li>
-          <li>Dummy Capability 03</li>
-          <li>Dummy Capability 04</li>
-          <li>Dummy Capability 05</li>
-          <li>Dummy Capability 06</li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="insights" class="wrap section">
-      <div class="sectionHead">
-        <h2>Insights</h2>
-        <p>Dummy thought pieces / notes / publication placeholders.</p>
-      </div>
-      <div class="insightGrid">
-        <article class="panel reveal"><h3>Dummy Insight A</h3><p>Placeholder text.</p></article>
-        <article class="panel reveal"><h3>Dummy Insight B</h3><p>Placeholder text.</p></article>
-        <article class="panel reveal"><h3>Dummy Insight C</h3><p>Placeholder text.</p></article>
-      </div>
-    </section>
-
-    <section id="contact" class="wrap section split">
-      <article class="panel reveal">
-        <h2>Contact</h2>
-        <p>dummy.person@example.com</p>
-        <p>Dummy City, Dummy Country</p>
-      </article>
-      <form class="panel reveal">
-        <label>Name<input type="text" placeholder="Dummy Name"></label>
-        <label>Email<input type="email" placeholder="dummy@example.com"></label>
-        <label>Message<textarea rows="5" placeholder="Dummy message"></textarea></label>
-        <button type="button" class="btn primary">Send</button>
-      </form>
-    </section>
+    <div class="mini-profile" aria-label="Profile image placeholder">
+      <div class="avatar-slot">IMG</div>
+      <div class="status-dot">☺</div>
+    </div>
   </main>
 
-  <footer>
-    <div class="wrap foot">
-      <span>© 2026 Astra Vale</span>
-      <span class="build">Build v0.2.0-main</span>
-    </div>
+  <footer class="wrap foot">
+    <span>Build v0.3.0-main</span>
   </footer>
-
-  <script src="app.js?v=2"></script>
 </body>
 </html>
